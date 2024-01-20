@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--text-color: white;
+	--stroke-color: rgba(255, 255, 255, 0.5);
+	--surface-color: rgba(255, 255, 255, 0.05);
+	--surface-color-hover: rgba(0, 0, 0, 0.02);
+	--highlight-color: rgba(255, 255, 255, 0.2);
+}
