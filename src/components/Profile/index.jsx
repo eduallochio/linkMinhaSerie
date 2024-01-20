@@ -1,13 +1,13 @@
-import avatar from '../../assets/avatar.png';
+import avatar from "../../assets/avatar.png"
+import styles from "./profile.module.css"
 
-function Profile () {
+function Profile() {
   return (
-    <div id="profile">
-      <img src={ avatar } alt="Logo da pagina e canal Minha série em cortes." />
+    <div className={styles.profile}>
+      <img src={avatar} alt="Logo da pagina e canal Minha série em cortes." />
       <p>@minhaserieemcortes</p>
-
     </div>
   )
 }
 
-export default Profile;
+export default Profile
