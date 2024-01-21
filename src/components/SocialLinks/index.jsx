@@ -1,6 +1,8 @@
-function SocialLinks () {
-	return (
-    <div id="social-links">
+import styles from "./SocialLinks/social.module.css"
+
+function SocialLinks() {
+  return (
+    <div className={styles.social}>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -28,4 +30,4 @@ function SocialLinks () {
   )
 }
 
-export default SocialLinks 
+export default SocialLinks

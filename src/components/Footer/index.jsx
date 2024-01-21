@@ -1,8 +1,8 @@
-
+import styles from './footer.module.css'
 
 function Footer () {
 	return (
-    <div>
+    <div className={styles.footer}>
       <footer>
         Desenvolvido por{" "}
         <a
