@@ -1,8 +1,10 @@
-import styles from "./SocialLinks/social.module.css"
+import styles from "./social.module.css"
 
 function SocialLinks() {
   return (
     <div className={styles.social}>
+   
+
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -26,6 +28,7 @@ function SocialLinks() {
       >
         <ion-icon name="logo-youtube"></ion-icon>
       </a>
+
     </div>
   )
 }
