@@ -10,7 +10,7 @@ function Footer () {
           rel="noopener noreferrer"
           href="https://instagram.com/eduallochio"
         >
-          Eduardo Allochio
+          Omega System
         </a>
       </footer>
     </div>

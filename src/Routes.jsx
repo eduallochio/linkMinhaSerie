@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Videos from "./page/videos";
+import Videos from "./components/Videos";
+
 
 
 
