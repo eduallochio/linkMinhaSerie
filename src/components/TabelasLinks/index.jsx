@@ -46,7 +46,11 @@ function TabelasLinks() {
       </li>
 
       <li>
-        <a target="_blank" href="/Videos" onClick={ "/videos"}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://eduallochio.github.io/playerVideo"
+        >
           Vídeos TBBT
         </a>
       </li>

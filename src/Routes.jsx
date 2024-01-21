@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Videos from "./components/Videos";
+import { BrowserRouter, Routes } from "react-router-dom";
+
 
 
 
@@ -9,7 +9,7 @@ function AppRoutes () {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/videos" element={ <Videos /> }> </Route>
+	
 			</Routes>
 		</BrowserRouter>
 	)
