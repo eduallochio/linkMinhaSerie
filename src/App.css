@@ -5,7 +5,8 @@
 }
 
 body {
-	background: var(--bg-url) no-repeat top center/cover;
+	/* background: var(--bg-url) no-repeat top center/cover; */
+	background-color: #161117;
 	height: 100vh;
 }
 
@@ -63,10 +64,6 @@ ul li a:hover {
 @media (min-width: 720px) {
 	:root {
 		--bg-url: url(./assets/bg-desktop.jpg);
-	}
-
-	.light{
-		--bg-url: url(./assets/bg-desktop-light.jpg);
 	}
 }
 
