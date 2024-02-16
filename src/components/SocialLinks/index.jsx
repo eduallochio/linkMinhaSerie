@@ -3,15 +3,13 @@ import styles from "./social.module.css"
 function SocialLinks() {
   return (
     <div className={styles.social}>
-   
-
-      <a
+      {/* <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.tiktok.com/@minhaserieemcortes"
       >
         <ion-icon name="logo-tiktok"></ion-icon>
-      </a>
+      </a> */}
 
       <a
         target="_blank"
@@ -28,7 +26,13 @@ function SocialLinks() {
       >
         <ion-icon name="logo-youtube"></ion-icon>
       </a>
-
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.facebook.com/profile.php?id=61556736650868"
+      >
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
     </div>
   )
 }
